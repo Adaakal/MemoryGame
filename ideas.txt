@@ -1,0 +1,56 @@
+
+
+/**I want a place that the flipped cards can go and be compared. 
+ * I want to account for matches. number of cards/2 = pairs. Then game over
+ */
+/**Maybe NOT getCard, but more so initiate game by creating an object for each card. Not sure. */
+
+// function loadCardObj(arr) {
+//   let cards = [];
+//   arr.map(function (val) {
+
+//     const cardsInPlay = {
+//       colorName: val,
+//       isFlipped: false
+//     }
+//     cards.push(cardsInPlay);
+
+//   });
+//   return cards;
+// }
+//const cardObjects = loadCardObj(shuffledColors);
+
+// let card;
+// for (index in cardObjects) {
+//   card = cardObjects[index];
+
+//   console.log(card);
+// }
+// function getCardObj() {
+//   const cardsInPlay = {
+//     //maybe a key for color name? how to access that
+//     isFlipped: false
+//   }
+//   return cardsInPlay;
+// }
+
+
+// function flipCard(clickedCard) {
+//   const flipped = clickedCard;
+
+//   if (compareCardCount >= 2) {
+//     console.log("You have alread flipped 2 cards!");
+//     //check for match in flippedCardsArr and don't allow for another click
+    
+//   } else {
+//     flipped.setAttribute('isFlipped','true');
+
+//     console.log(flipped);
+//     flipped.style.backgroundColor = flipped.className;
+//     compareCardCount++;
+//     //currentFlippedCardsArr.push(flipped);
+//     console.log(compareCardCount);
+//     //console.log(currentFlippedCardsArr);
+    
+//   }
+// }
