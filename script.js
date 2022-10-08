@@ -125,7 +125,7 @@ function handleCardClick(event) {
           }
           
           //secondFlippedCard.classList.remove('isFlipped');
-        }, 3000);
+        }, 2000);
         
         
 
